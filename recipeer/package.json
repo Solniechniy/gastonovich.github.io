@@ -1,0 +1,24 @@
+{
+  "name": "recipeer",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "uuid": "^3.2.1"
+  },
+  "scripts": {
+    "start": "node-sass --include-path scss src/scss/main.scss src/index.css & react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "build-css": "node-sass --include-path scss src/scss/main.scss src/index.css"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5"
+  }
+}

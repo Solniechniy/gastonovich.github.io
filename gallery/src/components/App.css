@@ -1,0 +1,49 @@
+.title h2{
+  text-align: center;
+  margin:auto;
+  padding: 0 20px 0 20px;
+  font-size: 50px;
+}
+ .cards ul{
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+.cards li{
+  height: 250px;
+  margin:7px;
+  flex: 0 1 150px;
+  background-color: #F9F9D1;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 3px;
+  padding: 5px;
+}
+.cards li p{
+  font-size: .6rem;
+}
+.cards{
+  margin:auto;
+  text-align: center;
+  width: 90%;
+}
+
+.controls{
+  text-align: center;
+}
+.loading img{
+    transform: rotate(360deg);
+    animation:1s spin infinite;
+    width: 100px;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+          transform: rotate(360deg);
+      }
+}
