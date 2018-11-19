@@ -1,37 +1,88 @@
-body{
-    margin:0;
-    padding:0;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-content: center;
-    align-items: center;
-    background-color: #EFE7DA;
+html {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-weight: normal;
+  font-size: 2.3em;
+}
+h2 {
+  width: 100%;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  background-color: #feede6;
+}
+section {
+  background-color: #dcc2b6;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.19);
+  transition: all 250ms cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition-delay: initial;
+  border-radius: 1px;
+  justify-content: center;
+}
+.leftSide {
+  width: 55%;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+}
+.leftSide div {
+  width: 95%;
+}
+.rightSide {
+  width: 30%;
+  margin-left: 5%;
+}
+.rightSide div {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.info > img {
+  width: 40%;
+  border-radius: 1.3em;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.projects div {
+  width: 45%;
 }
 
-.projects{
+a{
     text-decoration: none;
-    color:#948b89;
-    text-align: center;
-    width:50%;
-    margin:5vh;
-    height: 23vh;
-    background-color: #ACBFE0;
-    box-shadow: 0 10px 30px rgba(0,0,0,.14);
-    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
-    transition-property: all;
-    transition-duration: 200ms;
-    transition-timing-function: cubic-bezier(0.02, 0.01, 0.47, 1);
-    transition-delay: initial;
-    border-radius: 5px;
 }
-.projects:hover{
-    color: #E6ECF4;
-    opacity: 1;
-    background-color: #ACBFE0;
-    box-shadow: 0 20px 50px rgba(0,0,0,.19)
+a:not([class]) {
+   text-decoration: none;
+   background-image: linear-gradient(#a0a1a3 50%, #9f9f9f 50%);
+   background-size: 10000px 2px;
+   color: #1e7f8a;
+  background-repeat: no-repeat;
+  background-position: 0 1em;
+  background-position: -10000px 1em;
+  
 }
-h1{
-    font-size: 43px;
-    font-family: Roboto, Arial, Helvetica, sans-serif;
-}
+a:hover {
+    background-position: 0 1em;
+    transition: background-position 5s ease-in-out;
+  }
+  hr{
+    width: 80%;
+    border: 1px solid #dcd0cb;
+  }
