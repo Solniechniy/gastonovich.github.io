@@ -1,3 +1,4 @@
+
 html {
   font-family: Roboto, Arial, Helvetica, sans-serif;
 }
@@ -86,3 +87,17 @@ a:hover {
     width: 80%;
     border: 1px solid #dcd0cb;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    body{
+        flex-direction: column-reverse;
+    }
+    section{
+        height: auto;
+    }
+    .leftSide,.rightSide{
+        width: 95%;
+        margin:1em;
+    }
+}
