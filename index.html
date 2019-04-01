@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -10,65 +10,74 @@
       rel="stylesheet"
     />
   </head>
-  <body>
-    <section class="leftSide">
-      <div class="Stack">
-        <h2>Stack</h2>
-        <p>JS(React), C#, CSS(SCSS), HTML</p>
-        <p>Базовые навыки работы с git, настройкой окружения с помощью WebPack</p>
-      </div>
-      <hr>
-      <div class="education">
-        <h2>Образование</h2>
-        <p>
-          2016-2020 — Киевский национальный университет имени Тараса Шевченко<br />
-          факультет радиофизики, електроники и компьютерных систем
-        </p>
-      </div>
-      <hr>
-      <h2>Pet Projects</h2>
-      <div class="projects">
+  <body class="flex-col">
+    <section class="flex-col">
+        <img src="logo.svg"></img>
         <div>
-          <h3>Игра Пятнашки</h3>
+          <h2>Experience</h2>
+          <p>09.2018 – present - Worked on project with node.js + react technology (for a small company) / freelancing</p>
+        </div>
+        <div>
+          <h2>Stack</h2>
+          <p>JS(React.js, Express.js), CSS(SCSS), HTML, C# </p>
           <p>
-            Достаточно простая игра написанная на React с поддержкой мобильных
-            устройств
+            Basic skills with git, setting the environment with WebPack for React
           </p>
           <p>
-            <a href="https://gastonovich.github.io/lun/dist/index.html"> &nbsp;   Demo &nbsp;    </a>
-            <a> &nbsp;   Source  &nbsp;  </a>
+            Understanding of networking concepts              
           </p>
         </div>
         <div>
-          <h3>Weather App</h3>
-          <p>Предоставляет информацию о погоде в интересующем Вас городе</p>
+          <h2>Activities and Attended Courses</h2>
+          <p>2018 - Geek Space Hackathon - Second place (Developing front-end on React, health app which helps keep physical fit)</p>
+          <p>2016-2017 - Cisco IT Essentials Certification</p>
+        </div>
+        <div>
+          <h2>Pet Projects</h2>
           <p>
-            <a href="https://gastonovich.github.io/weatherApp/dist/index.html"> &nbsp;   Demo &nbsp;    </a>
-            <a href="https://github.com/Gastonovich/weatherApp"> &nbsp;   Source  &nbsp;   </a>
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="link" 
+              href="https://gastonovich.github.io/lun/dist/index.html"
+            >
+              Barley-Break
+            </a>
+             - A fairly simple game written in React with support for mobile devices.
           </p>
+          <p>
+            <a 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="link" 
+              href="https://gastonovich.github.io/weatherApp/dist/index.html"
+            >
+            Weather App
+            </a>
+            - Provides information about the weather in the city of your interest, in order to get a closer look at the work with API.
+          </p>   
         </div>
-      </div>
-      <hr>
-      <div class="activities">
-          <h2>Курсы и хакатоны</h2>
-          <p>2018 - Geek Space Hackathon - Второе место (Разработка front-end на React, веб-приложение для поддержаниия физической формы)</p>
-          <p>2016-2017 - Cisco IT Essentials Certification </p>
+        <div class="contacts">
+          <h1>Contacts</h1>
+          <h2>Korniichuk Oleksandr</h2>
+          <a 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="link" 
+              href="https://github.com/gastonovich"
+          >
+            Github
+          </a>
+          <a 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="link" 
+              href="mailto:oleksndrkorn@gmail.com"
+          >
+          E-mail
+          </a>
+          <p>+380631119031</p>
         </div>
-    </section>
-    <section class="rightSide">
-      <div class="info">
-        <h1>Корнейчук Александр</h1>
-        <img src="source/avatar.jpg" alt="avatar" />
-      </div>
-      <div class="contacts">
-        <h2>Контакты</h2>
-        <p>Телефон: +380(63)111-90-31</p>
-        <p>
-          E-mail:
-          <a href="mailto:oleksndrkorn@gmail.com">oleksndrkorn@gmail.com</a>
-        </p>
-        <p>GitHub: <a href="https://github.com/gastonovich">gastonovich</a></p>
-      </div>
     </section>
   </body>
 </html>
