@@ -28,7 +28,9 @@ section > div {
   justify-content: center;
   align-items: center;
 }
-
+.main-section{
+  max-width: 1000px;
+}
 .link {
   /* RESET */
   text-decoration: none;
