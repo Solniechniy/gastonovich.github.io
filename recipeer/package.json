@@ -18,7 +18,7 @@
     "build-css": "node-sass --include-path scss src/scss/main.scss src/index.css"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.17.5"
   }
 }
